@@ -1,0 +1,8 @@
+{
+  "name": "test: SIÊU APP VẼ HÌNH HỌC THÔNG MINH - VVIP",
+  "description": "An AI-powered geometry solver and interactive canvas that parses geometry problems (via text or image) and draws them dynamically.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

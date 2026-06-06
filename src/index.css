@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .math-expr {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #4f46e5;
+  }
+}
+
+/* Custom scrollbars for sidebars and menus */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #52525b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #71717a;
+}
+
+/* Special classes for printing to PDF safely */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  .print-hide {
+    display: none !important;
+  }
+  .print-area {
+    width: 100% !important;
+    display: block !important;
+    page-break-inside: avoid !important;
+  }
+}
+
